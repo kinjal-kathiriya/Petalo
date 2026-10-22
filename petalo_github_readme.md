@@ -41,7 +41,7 @@ A responsive, high-performance web platform built for **Petalo**, an artisanal i
 ## 📂 Project Structure
 
 ```text
-├── index.php           # Primary application file (PHP data models, HTML layout, styles, JS)
+├── petalo.php           # Primary application file (PHP data models, HTML layout, styles, JS)
 ├── hero-rose.jpg       # Hero banner visual
 ├── lineup.jpg          # Marquee visual banner
 ├── pistachio.jpg       # Flavor assets
@@ -92,7 +92,7 @@ You need a local PHP development environment. You can use:
 ## ⚙️ Configuration & Extensibility
 
 ### Adding a New Flavor
-Open `index.php` and append an entry to the `$flavors` array:
+Open `petalo.php` and append an entry to the `$flavors` array:
 
 ```php
 [
